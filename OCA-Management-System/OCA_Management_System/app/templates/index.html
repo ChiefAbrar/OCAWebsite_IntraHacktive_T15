@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OCA Management System</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; padding: 20px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h1 style="text-align: center; margin-bottom: 40px; color: #333;">Welcome to the OCA Management System</h1>
+        <h2 style="font-size: 1.5em; margin-bottom: 10px; color: #444;">Submit Event</h2>
+        <form action="/submit_event" method="POST" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+            Event Name: <input type="text" name="name" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            Date: <input type="date" name="date" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            <button type="submit" style="width: auto; max-width: 200px; background-color: #4CAF50; color: white; cursor: pointer; border: none; text-transform: uppercase; font-weight: bold; padding: 10px; margin-top: 10px;">Submit Event</button>
+        </form>
+        <h2 style="font-size: 1.5em; margin-bottom: 10px; color: #444;">Room Booking</h2>
+        <form action="/room_booking" method="POST" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+            Room ID: <input type="text" name="room_id" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            <button type="submit" style="width: auto; max-width: 200px; background-color: #4CAF50; color: white; cursor: pointer; border: none; text-transform: uppercase; font-weight: bold; padding: 10px; margin-top: 10px;">Book Room</button>
+        </form>
+        <h2 style="font-size: 1.5em; margin-bottom: 10px; color: #444;">Budget Request</h2>
+        <form action="/submit_budget" method="POST" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+            Club Name: <input type="text" name="club_name" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            Amount: <input type="number" name="amount" step="0.01" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            <button type="submit" style="width: auto; max-width: 200px; background-color: #4CAF50; color: white; cursor: pointer; border: none; text-transform: uppercase; font-weight: bold; padding: 10px; margin-top: 10px;">Request Budget</button>
+        </form>
+        <h2 style="font-size: 1.5em; margin-bottom: 10px; color: #444;">Send Message</h2>
+        <form action="/send_message" method="POST" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+            Sender: <input type="text" name="sender" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            Receiver: <input type="text" name="receiver" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;">
+            <br>
+            Message: <textarea name="message" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fafafa;"></textarea>
+            <br>
+            <button type="submit" style="width: auto; max-width: 200px; background-color: #4CAF50; color: white; cursor: pointer; border: none; text-transform: uppercase; font-weight: bold; padding: 10px; margin-top: 10px;">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

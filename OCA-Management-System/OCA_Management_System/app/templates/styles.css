@@ -1,0 +1,79 @@
+/* Comment out only if you want to work with styles.css instead. */
+
+/* Basic Reset
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="text"], form input[type="date"], form input[type="number"], form textarea {
+    background-color: #fafafa;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+form button:hover {
+    background-color: #45a049;
+}
+input[type="text"], input[type="date"], input[type="number"], textarea {
+    font-size: 1em;
+}
+h2 {
+    font-size: 1.6em;
+    color: #2c3e50;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"], form input[type="date"], form input[type="number"], form textarea {
+    margin-bottom: 15px;
+}
+form button {
+    width: auto;
+    max-width: 200px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+button:hover {
+    background-color: #45a049;
+} */
